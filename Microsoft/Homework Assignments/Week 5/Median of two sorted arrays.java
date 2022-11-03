@@ -3,7 +3,6 @@ class Solution {
         int l1=nums1.length;
         int l2=nums2.length;
         int l=l1+l2;
-        //System.out.println(l+" "+l/2);
         int[] arr=new int[l];
         int k=0;
         int i=0,j=0;

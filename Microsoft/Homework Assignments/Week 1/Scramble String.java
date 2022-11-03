@@ -24,7 +24,6 @@ class Solution {
             if(right!=l2){
                 freq2[s2.charAt(right)-'a']+=1;
                 freq2[s2.charAt(left)-'a']-=1;
-                //System.out.println(s2.charAt(right)+" "+s2.charAt(left));
                 left+=1;
             }
         }
